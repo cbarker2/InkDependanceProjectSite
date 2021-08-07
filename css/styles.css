@@ -1,11 +1,12 @@
 body, html {
-  height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tattoo.jpg");
-  height: 100%;
+  font-family: 'Righteous', cursive;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/tattoo-artist.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; }
+  background-attachment: fixed;
+  position: relative;
+  color: white; }
 
 h1 {
   font-size: 5rem;
@@ -14,7 +15,17 @@ h1 {
   color: white;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white; }
+  -webkit-text-stroke-color: white;
+  margin-bottom: 50px; }
+
+h2 {
+  text-align: center;
+  color: white; }
+
+h3, h4 {
+  text-align: center;
+  color: white;
+  margin: 50px; }
 
 h5 {
   font-size: 3rem;
@@ -24,34 +35,31 @@ h5 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white; }
 
-.jumbotron {
-  margin: 0;
-  padding: 10px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
+#tattoo, #piercings {
+  color: white; }
 
 .navbar {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)); }
 
 .navbar-nav {
-  width: 750px;
   margin: 0 auto;
   list-style: none; }
 
 .nav-item {
-  float: left; }
+  float: center; }
 
 .navbar-nav a {
   display: block;
   text-align: center;
-  width: 150px;
+  width: auto;
   /* fixed width */
   text-decoration: none; }
 
 .site-footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.75));
   padding: 20px 0;
   color: white;
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0; }
 
@@ -59,3 +67,43 @@ a,
 a:hover {
   color: inherit;
   text-decoration: none; }
+
+.container {
+  position: relative; }
+
+#home {
+  margin-top: 100px; }
+
+#about {
+  background-image: radial-gradient(circle at center center, rgba(33, 33, 33, 0), #212121), repeating-linear-gradient(135deg, #212121 0px, #212121 1px, transparent 1px, transparent 4px), repeating-linear-gradient(45deg, #383838 0px, #383838 5px, transparent 5px, transparent 6px), linear-gradient(90deg, #212121, #212121);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px 0px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; }
+
+#services {
+  background-image: radial-gradient(circle at center center, rgba(33, 33, 33, 0), #212121), repeating-linear-gradient(135deg, #212121 0px, #212121 1px, transparent 1px, transparent 4px), repeating-linear-gradient(45deg, #383838 0px, #383838 5px, transparent 5px, transparent 6px), linear-gradient(90deg, #212121, #212121);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; }
+
+#artists {
+  background-image: radial-gradient(circle at center center, rgba(33, 33, 33, 0), #212121), repeating-linear-gradient(135deg, #212121 0px, #212121 1px, transparent 1px, transparent 4px), repeating-linear-gradient(45deg, #383838 0px, #383838 5px, transparent 5px, transparent 6px), linear-gradient(90deg, #212121, #212121);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; }
+
+.card {
+  background-color: black;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; }
+
+.card-img-top {
+  border-radius: 25px 25px 0px 0px; }
